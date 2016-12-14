@@ -1,0 +1,290 @@
+body{
+  font-family:Avenir, sans-serif;
+  height:100%;
+  margin:0;
+  background-color: #ffffff;
+}
+.options button{
+ margin-left:70px;
+ padding:10px;
+ color:#fff;
+}
+.options form{
+ margin-left:220px;
+}
+.options h3{
+ margin-left:300px;
+ margin-bottom: -28px;
+ font-size: 15px;
+}
+
+
+.background img{
+  margin-top: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+}
+
+.background2 img{
+  margin-top: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+}
+
+.background3 img{
+  margin-top: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+}
+
+.background4 img{
+  margin-top: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+}
+
+.container{
+  padding:22px;
+}
+
+.header{
+  position: fixed;
+  top:0px;
+  margin: 0px auto;
+  background-color: white;
+  height:127px;
+  width: 100%;
+  box-shadow:1px 1px 8px rgba(0,0,0,0.2);
+  z-index: 100;
+  text-align: center;
+}
+.header a{
+  padding-top:50px;
+  text-decoration: none;
+}
+
+.flex{
+  display:flex;
+}
+
+.space-between{
+  justify-content:space-between; /*nav space*/
+}
+.nav{
+    width: 60%;
+    margin-left: 280px;
+}
+.nav a{
+  text-decoration: none;
+  display:block;
+  float:left;
+  text-align: center;
+  color:#000;
+  font-weight:900; 
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  padding: 30px 6px;
+  transition: .3s ease-in-out;
+}
+
+.nav a:hover {
+    color:#54c2bf;
+}
+
+.nav a:hover img {
+  position:relative;
+  bottom:5px;
+}
+.dataadd{
+  float:right;
+  margin-right: 30px;
+  width:390px;
+  border: 0.5px solid #814d39;
+
+}
+.dataadd h1{
+  color:#fff;
+ font-size: 20px;
+ text-align: center;
+ padding-top: 10px;
+}
+.director{
+    background-color:#3a231a;
+    padding:10px;
+    height:70px;
+    border: 0.5px solid #814d39;
+}
+.director:hover{
+  background-color:#8e553f;
+}
+.movie{
+    background-color:#3a231a; 
+    padding:10px;
+    height:70px;
+    border: 0.5px solid #814d39;
+
+}
+
+.movie:hover{
+  background-color:#8e553f;
+}
+
+.actor{
+    background-color:#3a231a;
+    padding:10px;
+    height:70px;
+    border: 0.5px solid #814d39;
+}
+.actor:hover{
+  background-color:#8e553f;
+}
+
+.ranking{
+  position: absolute;
+  margin-left: 977px;
+  margin-top: 300px;
+}
+.information {
+    margin-left: 40px;
+    text-align: center;
+    width: 950px;
+    text-decoration: none;
+}
+
+.imformation img{
+  margin-bottom: 40px;
+}
+.information h1{
+  font-family:Avenir, sans-serif;
+  text-align: center;
+  font-size:13px;
+}
+.information a{
+  margin-top: 10px;
+  font-family:Avenir, sans-serif;
+  text-decoration: none;
+  font-size:15px;
+}
+
+.row{
+  float:left;
+  height:345px;
+  width:282px;
+  padding:15px;
+  border: 0.5px solid #814d39;
+  border-width: 2px;
+}
+.delete1{
+  color:#17840c;
+  background-color: #c0c0c0;
+  padding:5px;
+}
+.delete1:hover{
+  color:#fff;
+  background-color: #6f6f6f;
+}
+.update1{
+  color:#b61105;
+  background-color: #c0c0c0;
+  padding:5px;
+}
+.update1:hover{
+  color:#fff;
+  background-color: #6f6f6f;
+}
+
+/*****************   MOVIEFORM    **************/
+
+.movieform{
+  margin-top: 20px;
+  margin-left: 200px;
+  width:1000px;
+  border: 0.9px solid #814d39;
+  border-width: 2px;
+  padding-left:50px;
+}
+.movieform input{
+  margin-top: -54px;
+  margin-left: 220px;
+  width: 600px;
+  height: 50px;
+  border: 0.8px solid #814d39;
+  border-width: 2px;
+  padding-top:10px;
+}
+.movieform label{
+  font-size: 9px;
+  color:#3b231a;
+}
+.movieform label h1{
+  margin-left: 85px;
+  margin-top:37px;
+}
+
+button{
+  margin-left: 610px;
+  background-color:#3a231a;
+  border: 0.8px solid #3a231a;
+  width:190px;
+}
+.button{
+  padding:17px;
+}
+.button h1{
+  /*padding:5px;*/
+  font-size: 15px;
+  color:#fff;
+}
+button:hover{
+  background-color:#8e553f;
+}
+
+select{
+  margin-left:222px;
+  margin-top: -50px;
+  width:500px;
+  height:50px;
+  border: 0.8px solid #814d39;
+  border-width: 2px;
+}
+
+/************  success   ***********/
+.success{
+  padding:50px;
+  border: 0.5px solid #fff;
+}
+.success h2{
+  margin-top: -560px;
+  text-align: center;
+  color:#fff;
+  padding:20px;
+}
+.clickback{
+  margin-top: -510px;
+  margin-left:590px;
+}
+
+.clickback a{
+  font-size: 15px;
+  background-color:#3a231a;
+  color:#fff;
+  border: 0.8px solid #3a231a;
+  text-align: center;
+  padding:20px;
+}
+
+.clickback a:hover{
+  background-color:#8e553f;  
+}
+.data{
+  margin-top: 40px;
+  text-align: center;
+  color:#fff;
+}
+
+
+
